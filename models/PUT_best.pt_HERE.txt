@@ -1,0 +1,5 @@
+Copy your trained YOLO weights into this folder and name the file:  best.pt
+
+You get best.pt by training (see README, section "Train your own model").
+The API loads models/best.pt on startup. If you add it while the API is running,
+press "Reload model" in the app sidebar (or call POST /model/reload).
