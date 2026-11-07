@@ -1,21 +1,25 @@
-<<<<<<< HEAD
-__pycache__/
-*.pyc
+# Virtual environments
 .venv/
 venv/
-.env
-outputs/
-work/
-runs/
-frames/
-*.pt
-!models/.gitkeep
-.pytest_cache/
-=======
-.venv/
-venv/
+env/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
 .env
 .streamlit/secrets.toml
->>>>>>> b82af3ea2a249dec438e38567c1282d949328d9c
+
+# Model weights
+*.pt
+*.onnx
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
