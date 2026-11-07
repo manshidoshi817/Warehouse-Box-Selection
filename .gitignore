@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 __pycache__/
 *.pyc
 .venv/
@@ -10,3 +11,11 @@ frames/
 *.pt
 !models/.gitkeep
 .pytest_cache/
+=======
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+>>>>>>> b82af3ea2a249dec438e38567c1282d949328d9c
