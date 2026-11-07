@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Virtual environments
 .venv/
 venv/
@@ -25,3 +26,30 @@ Thumbs.db
 .vscode/
 # Generated output files
 outputs/
+=======
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Model weights
+*.pt
+*.onnx
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+>>>>>>> 3e9c316d6cf3f7e64b10b1d4de5bba36af0b2132
